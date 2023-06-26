@@ -1,0 +1,338 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #171617;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+ /* Estilos para telas 4K (2560px e acima) */
+@media (min-width: 2560px) {
+  /* Exemplo de regras de responsividade para 4K */
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 30px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .content {
+    column-count: 4;
+  }
+
+  .card {
+    width: 400px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Estilos para Laptop L (1440px) */
+@media (max-width: 1440px) {
+  /* Exemplo de regras de responsividade para Laptop L */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .content {
+    column-count: 3;
+  }
+
+  .card {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Estilos para Laptop (1024px) */
+@media (max-width: 1024px) {
+  /* Exemplo de regras de responsividade para Laptop */
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 16px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .content {
+    column-count: 2;
+  }
+
+  .card {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Estilos para Tablet (768px) */
+@media (max-width: 768px) {
+  /* Exemplo de regras de responsividade para Tablet */
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 12px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .content {
+    column-count: 1;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+/* Estilos para Mobile L (425px) */
+@media (max-width: 425px) {
+  /* Exemplo de regras de responsividade para Mobile L */
+  body {
+    font-size: 10px;
+  }
+
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 8px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .content {
+    column-count: 1;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+/* Estilos para Mobile M (375px) */
+@media (max-width: 375px) {
+  /* Exemplo de regras de responsividade para Mobile M */
+  body {
+    font-size: 10px;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 8px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .content {
+    column-count: 1;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+/* Estilos para Mobile S (320px) */
+@media (max-width: 320px) {
+  /* Exemplo de regras de responsividade para Mobile S */
+  body {
+    font-size: 8px;
+  }
+
+  .container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 6px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .content {
+    column-count: 1;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+/* Outros estilos globais */
+
+/* Estilos específicos para elementos */
+
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
